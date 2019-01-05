@@ -1,0 +1,7 @@
+https://john.doe@www.example.com:123/forum/questions/?tag=networking&order=newest#top
+https://www.reddit.com/r/MLBStreams/
+https://www.google.com/
+https://weather.com/
+https://learn.zybooks.com/zybook/QCCSCI355TeitelmanFall2018
+http://picasso.cs.qc.cuny.edu/cs316/
+https://www.usa.gov/
