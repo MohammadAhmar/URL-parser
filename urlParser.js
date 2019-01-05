@@ -2,8 +2,7 @@ var x;
 var x;
 x = 4;
 x = "java";
-/*
-//alert('Welcome');
+
 var fileInput = document.getElementById('file');
 // header for the table
 var table = "<table>";
