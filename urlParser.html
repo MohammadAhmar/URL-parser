@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Make sure urls on seperate lines before uploading!</h2>
+<h3>Any other file other then .txt will not be accepted!</h2>
+<h3> Copy file format below:</h3>
+<a href="url.txt">Test file format</a>
+<h4>Upload File to parse</h4>
+
+<input type = "file" id = "file">
+<hr id = "split" style="display:none;">
+<button id = "new" style="display:none; width:88px; height:20px;"><a href = "urlParser.html" style="text-decoration: none;">New file</a></button>
+<script type="text/javascript" src="urlParser.js"></script>
+<!-- <link rel="stylesheet" href="mystyle.css"> -->
+<!-- css for table  -->
+<style>
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+
+</style>
+
+<!-- displays table from main.js -->
+
+<div id = "table"></div>
+
+<div id="piechart"></div>
+
+<div id = "p1"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h3 id = "errorUrl" style="display:none">Error make sure correct file is uploaded !</h3>
+
+
+</body>
+</html>
