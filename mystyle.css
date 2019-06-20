@@ -1,0 +1,63 @@
+body {
+  background-image: url('bk2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading, #demo {
+opacity: .6;
+width: 1500px;
+display: inline-block;
+text-align: center;
+font-size: 30px;
+font-family: fantasy;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em purple;
+}
+
+
+#tabs {
+  font-family: cursive;
+}
+
+ul {
+  margin: 0px;                              <!-- Sets up default ul w/o bullets -->
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+float: left;
+display: inline-block;
+width: 300px;                                <!-- Adds styles to listed items by setting it horziontally -->
+height: 40px;
+background-color: white;
+opacity: .3;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+margin-right: 2px;
+}
+
+ul li a {
+  text-decoration: none;                  <!-- Removes a href link tags underneath listed items-->
+  color: orange;
+  display: block;
+}
+
+ul li a:hover {
+  opacity: .9;
+  background-color: grey;              <!-- Displays color for hover-->
+}
+
+ul li ul li {
+  display: none;                      <!-- hides elements when not hovered-->
+}
+
+ul li:hover ul li {
+  opacity: 4;
+  text-align: center;
+  display: block;
+  width: 200px;                                   <!-- shows elements upon hover-->
+}
